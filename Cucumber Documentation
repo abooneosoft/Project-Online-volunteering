@@ -1,0 +1,89 @@
+CUCUMBER FRAMEWORK
+1. BDD (Behaviour Driven Development) with the execution of TDD (Test
+Driven Development).
+2. Used to convert the exact requirements into plain English language.
+3. It support insprint automation.
+4. Non-Technical people can also understand the automation coverage.
+5. Cucumber supports Ruby,Java,Grovy,Python,.NET and PHP.
+6. We can use the Gherkin language or Gherkin Keyword (Plain
+English).
+7. Cucumber options.
+8. Cucumber Reports.
+CUCUMBER ANNOTATIONS
+ @Given
+ @When
+ @Then
+ @CucumberOptions
+BDD FRAMEWORK
+1. Cucumber
+2. Jbehave
+3. Nbehave
+4. Specflow
+GHERKIN Keyword / GHERKIN Language
+ Feature
+ Scenario
+ Given
+ When
+ Then
+ And
+ But
+ Scenario Outline
+ Examples
+ Background
+
+CUCUMBER
+
+Feature
+1. Feature defines the logical test funtionality test [What you will test the
+feature file].
+2. Feature keyword is present at the starting of the feature file.
+Scenario
+1. Business rule[Provides the scenario name /purpose of the scenario].
+Given
+1. Some precondition step.
+When
+1. Some key actions.
+Then
+1. To observe the outcomes or validation.
+Scenario Outline
+1. Used to execute the same scenario with multiple times wih different set of
+test datas.
+Examples
+1. Used to pass the parameters using the | (pipe symbol) | separate the each
+variables.
+But
+1. Used to add negative type comments.
+Background
+1. Define steps which is are common to all the tests in the feature file.
+And
+1. Used to add conditions in feature file.
+
+CUCUMBER
+
+CUCUMBER OPTIONS
+ features
+ glue
+ dryRun
+ monochrome
+ plugin
+ pretty
+ tags
+ strict
+features
+ feature option is used to locate the Feature folder in project folder
+structure.
+
+FEATURE
+
+Glue
+ glue option is used to locate the stepDefinition class.
+
+GLUE
+
+CUCUMBER
+
+dryRun
+ dryRun option can either set as true or false.
+ if it is set as true means check the every step mentioned in the feature file
+has corresponding code written in StepDefinition class or not.so in case
+any of the step is mismatch it update the snippets alone.
