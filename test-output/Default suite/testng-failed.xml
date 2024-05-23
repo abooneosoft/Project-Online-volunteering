@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.testNG.LoginFunctionalities">
+        <methods>
+          <include name="user_click_back_then_user_navigate_to_login_page"/>
+          <include name="user_enter_the_username_and_password"/>
+          <include name="user_click_the_cookie_policy_document_should_be_open"/>
+          <include name="user_click_the_privacy_policy_document_should_be_open"/>
+          <include name="user_click_sign_out_button"/>
+          <include name="user_mouse_hover_the_my_profile_button"/>
+          <include name="user_click_the_contact_button_mail_box_should_open"/>
+          <include name="user_click_the_sign_up_button_user_should_navigate_to_sign_up_page"/>
+          <include name="user_click_the_url_user_should_navigate_to_https_www_employeevolunteering_com"/>
+          <include name="verify_the_sign_out_button_is_clickable"/>
+          <include name="user_navigate_to_the_login_page"/>
+          <include name="user_click_the_sign_up_button"/>
+        </methods>
+      </class> <!-- com.testNG.LoginFunctionalities -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
